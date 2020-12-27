@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #00cc99;
+  text-align: center;
+}
+
+h1 {
+  font-size: 350%;
+  margin-top: 10rem;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.pres {
+  font-size: 200%;
+}
