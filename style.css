@@ -6,7 +6,11 @@ body {
 
 h1 {
   font-size: 350%;
-  margin-top: 10rem;
+  margin-top: 7rem;
+}
+
+p {
+  text-align: left;
 }
 
 li {
@@ -36,4 +40,9 @@ a:active {
 
 .pres {
   font-size: 200%;
+}
+
+.container {
+  margin: auto;
+  max-width: 50%;
 }
