@@ -1,0 +1,202 @@
+* { 
+    box-sizing: border-box 
+}
+
+/* Basic design for mobile */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #007EA7;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00A65E;
+}
+
+
+.container {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+header {
+    margin: 0;
+}
+
+.header-container,
+.footer-container {
+    background-color: #007EA7;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.top-heading {
+    margin: 0;
+    padding-top: 43px;
+    font-size: 36px;
+}
+
+.top-subtitle {
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 31px 0;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+.main-nav li {
+    list-style-type: none;;
+    padding: 7px 12px;
+    font-weight: 500;
+    color: #007EA7;
+    font-size: 24px;
+}
+
+.standout {
+    color: #00516C;
+    font-weight: 700;
+}
+
+.main-heading {
+    font-weight: 400;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.content-heading {
+    font-weight: 400;
+    font-size: 30px; 
+    text-align: center;
+    margin: 15px auto 20px auto;
+}
+
+.standard-text {
+    margin: 20px 15% 20px 15%;
+    width: 70%;
+    font-size: 16px;
+}
+
+.profile-photo {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.profile-text {
+    margin: 20px auto 20px auto;
+    width: 70%;
+    font-size: 18px;
+}
+
+.screenshot {
+    width: 100%;
+    margin: 5px auto 15px auto;
+}
+
+.footer-text {
+    margin: 10px auto 4px auto;
+}
+
+.footer-link {
+    margin: 0 auto 10px auto;
+    color: white;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+
+    .top-heading {
+        padding-top: 60px;
+        font-size: 64px;
+    }
+    
+    .top-subtitle {
+        font-size: 48px;
+        padding: 0 0 51px 0;
+    }
+
+    .main-nav ul {
+        margin: 0;
+    }
+
+    .main-nav li {
+        padding: 30px 58px;
+        font-size: 36px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+        float: left; 
+        text-align: center;
+        margin: 30px 20px 10px 15%;
+    }
+    
+    .profile-text {
+        margin: 20px auto 20px auto;
+        width: 40%;
+        float: left;
+        font-size: 24px;
+        margin-left: 15%;
+    }
+
+    .profile-photo {
+        width: 20%;
+        float: right;
+        margin: 30px 15% 20px auto;
+    }   
+
+    .screenshot {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    .main-heading {
+        font-size: 30px;
+        float: left; 
+        text-align: center;
+        margin: 30px 20px 10px 12%;
+    }
+    
+    .profile-text {
+        margin: 20px auto 20px auto;
+        width: 30%;
+        float: left;
+        font-size: 20px;
+        margin-left: 12%;
+    }
+
+    .profile-photo {
+        width: 35%;
+        float: right;
+        margin: 30px 12% 20px auto;
+    }
+}
